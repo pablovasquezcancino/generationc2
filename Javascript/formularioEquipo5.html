@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <script>
+        
+        var nombre = prompt("Ingresa tu nombre completo");
+        console.log("Nombre completo:" , nombre)
+
+        var edad = parseInt(prompt("Ingresa tu edad",0));
+        console.log("Edad:" , edad)
+
+        var direccion = prompt("Ingresa tu dirección");
+        console.log("Dirección:" , direccion)
+
+        var telefono = parseInt(prompt("Ingresa tu número telefonico"));
+        console.log("telefono:" , telefono)
+
+        var email = prompt("Ingresa un correo");
+        console.log("email:" , email)
+
+        if(edad < 18 ){
+            console.log("Lo siento, no te puedes registrar");
+        }else{
+            console.log("Gracias por registrarte!");
+        }
+    </script>
