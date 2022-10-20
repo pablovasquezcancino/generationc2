@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // FUNCIONES:
+        // trozo o porción de código que solo se utilizara cuando sea llamado.
+        // Realiza una acción específica
+
+        var numeroImpar = 3;
+        
+        
+        function sumaNumeros() {
+            return numeroImpar + 4;
+        }
+
+        var numeroRetornado = sumaNumeros();
+        console.log(numeroRetornado);
+
+        function multiplicacion(a, b) {
+            return a*b;
+        }
+
+        var resultadoMultiplicacion = multiplicacion(34, 76);
+        console.log(resultadoMultiplicacion);
+
+        function newArray(number) {
+            var array = [];
+            for(let i = 0; i <= number; i++) {
+                array.push(i);
+            }
+            return array;
+        }
+
+        var userNumber = parseInt(prompt("ingresa tu numero", 0));
+        var myArray = newArray(userNumber);
+        console.log(myArray)
+
+    </script>
+</body>
+</html>

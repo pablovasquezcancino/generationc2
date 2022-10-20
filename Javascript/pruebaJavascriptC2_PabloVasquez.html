@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba Javascript Pablo Vásquez</title>
+</head>
+<body>
+    <script>
+        
+        /*
+            Don José todos los martes y jueves realiza un 20% de descuento en el total de las
+            compras, crea una función la cual debe recibir un parámetro del día y el arreglo de
+            valores de los productos a comprar, esta debe retornar el total final de la compra según
+            corresponda o no descuento.
+        */
+        
+        var valoresProducto = [1000,2000,2000,5000];
+        var contador = 0;
+
+        function sumaValores() {
+            for(let i = 0; i < valoresProducto.length; i++) {
+                var suma = contador += valoresProducto[i];
+            }
+
+            return suma;
+        }
+        
+        var calculador = sumaValores();
+        
+        function calculoValor(diaSemana, valoresProducto) {
+            if( diaSemana == "martes" || "jueves") {
+                calculador - calculador/5
+            } else {
+                calculador
+            }
+
+            return calculoValor
+        }
+
+
+
+
+
+    </script>
+</body>
+</html>

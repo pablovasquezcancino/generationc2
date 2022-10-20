@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //CICLO WHILE
+        //El ciclo for es bueno cuando queremos repetir un ciclo un numero de veces conocido
+        // En cambio el while queremos que se repita hasta que se cumpla una condición.
+        var contador = 0;
+
+        while(contador <= 5) {
+            console.log("Somos Pulenta los Wachituring!!");
+            contador++;
+        }
+
+        var termino = true;
+        var contador = 190;
+        // termino, cuando contador sea 200
+        while(termino) {
+           
+            contador = contador + 10;
+            if(contador == 200) {
+                termino = false;
+            }
+            console.log("contador", contador);
+        }
+    </script>
+</body>
+</html>
